@@ -469,7 +469,7 @@ i{
     position: absolute;
     top: 20%;
     left: 10%;
-    
+    z-index: 1000;
 }
 
 .social-1{
@@ -477,7 +477,6 @@ i{
     border: 2px solid #ffffff;
     background-color: rgba(255, 255, 255, 0.192);
     border-radius: 50%;
-    z-index: 999;
 }
 
 

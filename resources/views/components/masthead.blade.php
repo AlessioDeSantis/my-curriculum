@@ -42,8 +42,8 @@
         </div>
 
         <div class="d-flex social">
-            <a href="#"><i class="social-1 p-2 fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="social-1 p-2 mx-2 fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/alessio-de-santis-161995259/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BLz0%2FD%2FhwTDaiB21mAmqaQA%3D%3D"><i class="social-1 p-2 fa-brands fa-linkedin-in"></i></a>
+            <a href="https://gitlab.com/alex.desantis2000"><i class="social-1 p-2 mx-2 fa-brands fa-github"></i></a>
         </div>
 
         <div class="name-container-1 rounded p-3 mt-4">
