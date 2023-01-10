@@ -1,0 +1,40 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import './navbar.css';
+@import './masthead.css';
+
+
+:root{
+
+    --blue-navy: rgb(5, 37, 105);
+    --blue-dark: rgb(7, 38, 105);
+    --blue-electric: rgb(7, 81, 216);
+    --light-blue: rgb(0, 145, 222);
+}
+
+body{
+
+    background-color: var(--blue-navy);
+    color: #ffffff;
+    font-family: 'Bakbak One', cursive;
+}
+
+.bg-blue-navy{
+
+    background-color: var(--blue-navy);
+}
+
+.bg-blue-dark{
+
+    background-color: var(--blue-dark);
+}
+
+.bg-light-blue{
+
+    background-color: var(--light-blue);
+}
+
+.bg-electric-blue{
+
+    background-color: var(--blue-electric);
+}
