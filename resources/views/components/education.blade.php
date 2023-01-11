@@ -1,4 +1,4 @@
-<section>
+<section class="sky">
 
 
         <div class="cloud-1">
@@ -14,6 +14,43 @@
             <div class="circle-1"></div>
             <div class="circle-1"></div>
         </div>
+
+        <div class="cloud-1">
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+        </div>
+
+        <div class="cloud-1">
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+        </div>
+
+        <div class="cloud-1">
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+        </div>
+
+        <div class="cloud-1">
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+        </div>
+
+        <div class="cloud-1">
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+            <div class="circle-1"></div>
+        </div>
+
+        <!-- CLOUD SCHERMI PICCOLI -->
 
         <div class="cloud-1">
             <div class="circle-1"></div>

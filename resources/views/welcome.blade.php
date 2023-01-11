@@ -4,4 +4,6 @@
 
     <x-education></x-education>
 
+    <x-work></x-work>
+
 </x-layout>

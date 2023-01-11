@@ -1,4 +1,4 @@
-section{
+.sky{
 
     position: absolute;
     top: 100%;
@@ -8,10 +8,11 @@ section{
     left: 0;
     right: 0;
     overflow: hidden;
+    color: #e6e6e4;
 
 }
 
-section:after{
+.sky:after{
 
     background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(15, 10, 38, 0.2) 100%);
     content: "";
@@ -24,15 +25,20 @@ section:after{
 
 @media all and (max-width: 575px){
 
-    section{
+    .sky{
 
-        height: 200%; 
+        height: 190%; 
     }
     
-    section:after{
+    .sky:after{
         
-        height: 200%;
+        height: 190%;
        
+    }
+
+    .education-container{
+
+        top: 8%;
     }
 
 }
@@ -121,6 +127,7 @@ section:after{
     height: 10vh;
     /* border: 1px solid #ffffff; */
     z-index: 999;
+    transition: 1s;
 }
 
 .circle-1:nth-child(1){
@@ -165,6 +172,8 @@ section:after{
     width: 10vh;
     height: 10vh;
     /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
 }
 
 .cloud-1:nth-child(3){
@@ -175,6 +184,8 @@ section:after{
     width: 10vh;
     height: 10vh;
     /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
 }
 
 .cloud-1:nth-child(4){
@@ -185,16 +196,20 @@ section:after{
     width: 10vh;
     height: 10vh;
     /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
 }
 
 .cloud-1:nth-child(5){
 
     position: absolute;
-    top: 10vh;
+    top: 30vh;
     left: 0;
     width: 10vh;
     height: 10vh;
     /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
 }
 
 .cloud-1:nth-child(6){
@@ -205,6 +220,70 @@ section:after{
     width: 10vh;
     height: 10vh;
     /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
+}
+
+.cloud-1:nth-child(7){
+
+    position: absolute;
+    top: 30vh;
+    left: 85vw;
+    width: 10vh;
+    height: 10vh;
+    /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
+}
+
+/* CLOUD PER SCHERMI PICCOLI */
+
+.cloud-1:nth-child(8){
+
+    position: absolute;
+    top: 170vh;
+    left: 50vw;
+    width: 10vh;
+    height: 10vh;
+    /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
+}
+
+.cloud-1:nth-child(9){
+
+    position: absolute;
+    top: 110vh;
+    left: 30vw;
+    width: 10vh;
+    height: 10vh;
+    /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
+}
+
+.cloud-1:nth-child(10){
+
+    position: absolute;
+    top: 140vh;
+    left: 70vw;
+    width: 10vh;
+    height: 10vh;
+    /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
+}
+
+.cloud-1:nth-child(11){
+
+    position: absolute;
+    top: 130vh;
+    left: 0vw;
+    width: 10vh;
+    height: 10vh;
+    /* border: 1px solid #ffffff; */
+    z-index: 999;
+    transition: 1s;
 }
 
 
@@ -226,6 +305,13 @@ section:after{
         min-width: 20vw;
         z-index: 1000;
     }
+}
+
+
+.cloud-1:hover{
+
+    transform: translateY(10px);
+    transition: 1s ease-in;
 }
 
 

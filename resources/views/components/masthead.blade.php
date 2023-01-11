@@ -57,7 +57,7 @@
                     <h3>Age</h3>
                     <h5>22</h5>
                     <h3>Born</h3>
-                    <h5>Rome, 05/September/2000</h5>
+                    <h5>Rome, 05/09/2000</h5>
                     <h3>Nationality</h3>
                     <h5>Italian</h5>
                     <h3>Profession</h3>

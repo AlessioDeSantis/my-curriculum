@@ -1,0 +1,139 @@
+.sunset{
+
+    position: absolute;
+    top: 200%;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #e45484 0%, #e54040 70%, #f4720f 100%);
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    color: #e6e6e4;
+}
+
+.sunset:after{
+
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(15, 10, 38, 0.2) 100%);
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sun{
+
+    position: absolute;
+    background-color: #edbb06;
+    top: 70vh;
+    left: 30vw;
+    height: 80vh;
+    width: 80vh;
+    border-radius: 50%;
+}
+
+@media all and (max-width: 575px){
+
+    .sunset{
+
+        top: 290%; 
+    }
+    
+    .sunset:after{
+        
+        top: 290%;
+       
+    }
+
+}
+
+.title-2-container{
+
+    /* position: absolute; */
+    background-color: #ffffff4a;
+    color: #ffffff;
+    left: 20vw;
+    top: 10vh;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-right: 6px solid #ffffff;
+    border-bottom: 6px solid #ffffff;
+}
+
+.trees{
+
+    position: absolute;
+    bottom: 0;
+    left: -5vw;
+    height: 20vh;
+}
+
+.trees-1{
+
+    position: absolute;
+    bottom: 0;
+    left: 70vw;
+    height: 20vh;
+}
+
+.trees-2{
+
+    position: absolute;
+    bottom: 0;
+    left: 10vw;
+    height: 20vh;
+}
+
+#carouselExampleCaptions{
+
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    height: 40vh;
+    width: 50vw;
+    z-index: 1000;
+    color: #ffffff;
+}
+
+.carousel-inner{
+
+    height: 40vh;
+    width: 50vw;
+    text-align: center;
+}
+
+.carousel-caption{
+
+    height: 40vh;
+    width: 70%;
+    top: 100%;
+    left: 15%;
+    right: 15%;
+    bottom: 0;
+    background-color: #ffffff4a;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-right: 6px solid #ffffff;
+    border-bottom: 6px solid #ffffff;
+}
+
+@media all and (max-width: 768px){
+
+    #carouselExampleCaptions{
+
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        height: 40vh;
+        width: 80vw;
+    }
+
+    .carousel-inner{
+
+        height: 40vh;
+        width: 80vw;
+    }
+
+}
+
