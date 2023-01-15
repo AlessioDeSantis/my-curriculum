@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-sm-6 my-5 text-center">
-                <h3 class="title-2-container py-3 px-2 shadow">Work experience</h3>
+                <a href="" name="work"><h3 class="title-2-container py-3 px-2 shadow">Work experience</h3></a>
             </div>
 
         </div>

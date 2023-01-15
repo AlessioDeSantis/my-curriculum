@@ -4,6 +4,7 @@
 @import './masthead.css';
 @import './education.css';
 @import './work.css';
+@import './footer.css';
 
 :root{
 
@@ -11,6 +12,10 @@
     --blue-dark: rgb(7, 38, 105);
     --blue-electric: rgb(7, 81, 216);
     --light-blue: rgb(0, 145, 222);
+}
+
+a{
+    text-decoration: none;
 }
 
 body{

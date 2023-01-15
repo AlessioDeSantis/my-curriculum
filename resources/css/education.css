@@ -12,6 +12,11 @@
 
 }
 
+.sky a{
+    text-decoration: none;
+    color: #e6e6e4;
+}
+
 .sky:after{
 
     background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(15, 10, 38, 0.2) 100%);

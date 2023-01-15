@@ -82,7 +82,7 @@
     
 
         <div class="title-container shadow p-3 rounded mt-2">
-            <h2>Education</h2>
+            <a href="" name="sky"><h2>Education</h2></a>
         </div>
 
 
@@ -93,7 +93,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-center">
-                            <img class="diploma rounded mb-3" src="../images/diploma.svg" alt="">
+                            <img class="diploma rounded mb-3" src="../images/school.png" alt="">
                         </div>
                         <div class="study-title col-8">
                             <h4>Titolo di studio</h4>
