@@ -8,6 +8,8 @@
 
     <img class="trees-2" src="../images/trees.webp" alt="">
 
+    <div class="black"></div>
+
 
     <div class="container">
         <div class="row justify-content-center">

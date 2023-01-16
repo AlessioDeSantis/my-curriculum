@@ -5,5 +5,5 @@
 
     <a href="#work"><i class="fa-solid fa-briefcase"></i></a>
 
-    <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+    <a href="#contact"><i class="fa-solid fa-paper-plane"></i></a>
 </nav>

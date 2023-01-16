@@ -86,6 +86,16 @@
     height: 20vh;
 }
 
+.black{
+
+    position: absolute;
+    height: 110px;
+    bottom: -110px;
+    width: 100vw;
+    background-color: #050505;
+
+}
+
 #carouselExampleCaptions{
 
     position: absolute;
